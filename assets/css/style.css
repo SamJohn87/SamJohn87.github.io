@@ -12,6 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #5a656e;
+  padding: 5px 10px;
 }
 
 a {
@@ -31,11 +32,6 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
-  padding: 5px 10px;
-}
-
-p {
-  padding: 5px 10px;
 }
 
 /*--------------------------------------------------------------
