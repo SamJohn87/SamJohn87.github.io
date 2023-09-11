@@ -365,15 +365,6 @@ h6 {
   color: #a116b1;
 }
 
-/*.center-box {
-  margin: auto;
-  width: 50%;
-  border: 3px solid rgb(255, 255, 255);
-  padding: 10px; 
-  opacity: 95%;
-  background-color: rgb(235, 51, 195);
-}*/
-
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -1162,6 +1153,63 @@ section {
     transform: rotate(360deg);
   }
 }
+
+.flex-container {
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #f6ebf8;
+}
+
+.flex-container > div {
+  background-color: #f6ebf8;
+  width: 110px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.i-logos-github {
+  background: url(/assets/img/github-mark.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logos-react {
+  background: url(/assets/img/React-icon.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logos-nodejs {
+  background: url(/assets/img/Node.js_logo.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logos-visualscode {
+  background: url(/assets/img/Visual_Studio_Code_1.35_icon.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
