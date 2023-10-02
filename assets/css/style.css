@@ -1210,6 +1210,27 @@ section {
   height: 1.5em;
 }
 
+.btn-custom {
+  color: white;
+  background-color: #6b0776;
+  border-color: #6b0776;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.btn-custom:hover {
+  color: white;
+  background-color: #d43076;
+  border-color: #d43076;
+}
+
+.btn:active {
+  color: white;
+  background-color: #d43076;
+  border-color: #d43076;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
