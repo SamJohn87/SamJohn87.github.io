@@ -16,12 +16,12 @@ body {
 }
 
 a {
-  color: #d43076;
+  color: #a116b1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #dd5a92;
+  color: #a116b1;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #d43076;
+  background: #a116b1;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -58,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #db528c;
+  background: #a116b1;
   color: #fff;
 }
 
@@ -150,7 +150,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d43076;
+  color: #a116b1;
 }
 
 .navbar .dropdown ul {
@@ -185,7 +185,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #d43076;
+  color: #a116b1;
 }
 
 .navbar .dropdown:hover>ul {
@@ -284,7 +284,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #d43076;
+  color: #a116b1;
 }
 
 .navbar-mobile .getstarted,
@@ -319,7 +319,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #d43076;
+  color: #a116b1;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -414,7 +414,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #d43076;
+  background: #a116b1;
   bottom: 0;
   left: 0;
 }
@@ -649,7 +649,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #a116b1;
 }
 
 /*--------------------------------------------------------------
@@ -679,7 +679,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #d43076;
+  background: #a116b1;
   height: 100%;
   border-radius: 0px;
 }
@@ -692,7 +692,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #d43076;
+  background: #a116b1;
   transition: all 0.3s ease-in-out;
 }
 
@@ -728,7 +728,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #d43076;
+  color: #a116b1;
 }
 
 @media (max-width: 768px) {
@@ -770,7 +770,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #d43076;
+  color: #a116b1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -868,9 +868,20 @@ section {
   padding-top: 40px;
 }
 
+/*.portfolio-details .portfolio-details-slider .swiper-slide img {
+  object-fit:cover;
+  
+}
+
+.portfolio-details .portfolio-details-slider .swiper-slide {
+  background-size: contain;
+  width: 100%;
+}*/
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
@@ -882,11 +893,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d43076;
+  border: 1px solid #a116b1;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43076;
+  background-color: #a116b1;
 }
 
 .portfolio-details .portfolio-info {
@@ -1003,11 +1014,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d43076;
+  border: 1px solid #a116b1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43076;
+  background-color: #a116b1;
 }
 
 @media (max-width: 767px) {
@@ -1156,21 +1167,14 @@ section {
 
 .flex-container {
   border-radius: 25px;
-  display: flex;
-  flex-wrap: nowrap;
   background-color: #f6ebf8;
-}
-
-.flex-container > div {
-  background-color: #f6ebf8;
-  width: 110px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
+  width: 100%;
   font-size: 30px;
 }
 
-.i-logos-github {
+
+
+.i-logo-github {
   background: url(/assets/img/github-mark.svg);
   background-size: 100% 100%;
   background-color: transparent;
@@ -1180,7 +1184,7 @@ section {
   height: 1.5em;
 }
 
-.i-logos-react {
+.i-logo-react {
   background: url(/assets/img/React-icon.svg);
   background-size: 100% 100%;
   background-color: transparent;
@@ -1190,7 +1194,7 @@ section {
   height: 1.5em;
 }
 
-.i-logos-nodejs {
+.i-logo-nodejs {
   background: url(/assets/img/Node.js_logo.svg);
   background-size: 100% 100%;
   background-color: transparent;
@@ -1200,8 +1204,38 @@ section {
   height: 1.5em;
 }
 
-.i-logos-visualscode {
+.i-logo-visualscode {
   background: url(/assets/img/Visual_Studio_Code_1.35_icon.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logo-php {
+  background: url(/assets/img/new-php-logo.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logo-firebase {
+  background: url(/assets/img/logo-logomark.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logo-mongodb {
+  background: url(/assets/img/MongoDB_Logomark_ForestGreen.svg);
   background-size: 100% 100%;
   background-color: transparent;
   display: inline-block;
@@ -1221,14 +1255,14 @@ section {
 
 .btn-custom:hover {
   color: white;
-  background-color: #d43076;
-  border-color: #d43076;
+  background-color: #a116b1;
+  border-color: #a116b1;
 }
 
 .btn:active {
   color: white;
-  background-color: #d43076;
-  border-color: #d43076;
+  background-color: #a116b1;
+  border-color: #a116b1;
 }
 
 
