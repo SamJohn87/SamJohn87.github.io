@@ -1165,14 +1165,13 @@ section {
   }
 }
 
-.flex-container {
+.skill-set {
   border-radius: 25px;
   background-color: #f6ebf8;
   width: 100%;
   font-size: 30px;
+  padding: 5px;
 }
-
-
 
 .i-logo-github {
   background: url(/assets/img/github-mark.svg);
