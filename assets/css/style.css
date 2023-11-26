@@ -780,7 +780,6 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -1235,6 +1234,26 @@ section {
 
 .i-logo-mongodb {
   background: url(/assets/img/MongoDB_Logomark_ForestGreen.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logo-npm {
+  background: url(/assets/img/Npm-logo.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.i-logo-reactnative {
+  background: url(/assets/img/react-native-1.svg);
   background-size: 100% 100%;
   background-color: transparent;
   display: inline-block;
