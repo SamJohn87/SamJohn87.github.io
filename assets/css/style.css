@@ -799,7 +799,7 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.portfolio .portfolio-wrap .portfolio-info .h4-title {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
