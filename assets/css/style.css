@@ -844,7 +844,7 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-  top: calc(50% - 48px);
+  top: calc(40% - 48px);
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -1270,7 +1270,6 @@ section {
   border-color: #6b0776;
   border-radius: 5px;
   padding: 10px;
-
 }
 
 .btn-custom:hover {
