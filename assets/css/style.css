@@ -1254,6 +1254,16 @@ section {
   height: 1.5em;
 }
 
+.i-logo-javascript {
+  background: url(/assets/img/logo-javascript.svg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+
 .btn-custom {
   color: white;
   background-color: #6b0776;
